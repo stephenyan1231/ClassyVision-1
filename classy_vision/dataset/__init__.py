@@ -71,6 +71,8 @@ from .classy_cifar import CIFARDataset  # isort:skip
 from .classy_hmdb51 import HMDB51Dataset  # isort:skip
 from .classy_imagenet import ImageNetDataset  # isort:skip
 from .classy_kinetics400 import Kinetics400Dataset  # isort:skip
+from .classy_minikinetics200 import MiniKinetics200Dataset  # isort:skip
+from .classy_something_something_v2 import SomethingSomethingV2Dataset  # isort:skip
 from .classy_synthetic_image import SyntheticImageDataset  # isort:skip
 from .classy_synthetic_video import SyntheticVideoDataset  # isort:skip
 from .classy_ucf101 import UCF101Dataset  # isort:skip
@@ -85,6 +87,8 @@ __all__ = [
     "ImageNetDataset",
     "ImagePathDataset",
     "Kinetics400Dataset",
+    "MiniKinetics200Dataset",
+    "SomethingSomethingV2Dataset",
     "SyntheticImageDataset",
     "SyntheticVideoDataset",
     "UCF101Dataset",
